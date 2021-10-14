@@ -1,0 +1,7 @@
+n = int(input())
+s = input().split()
+s = list(map(int, s))
+del(s[s.index(max(s))])
+del(s[s.index(min(s))])
+score = sum(s)/len(s)
+print("{:.2f}".format(score))

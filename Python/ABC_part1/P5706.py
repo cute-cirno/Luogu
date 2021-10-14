@@ -1,0 +1,5 @@
+s = input().split()
+t = float(s[0])
+n = int(s[1])
+print("%.3f"%float(t/n))
+print(n*2)
